@@ -1,5 +1,3 @@
-package test.pivotal.pal.trackerapi;
-
 import com.jayway.jsonpath.DocumentContext;
 import com.mysql.cj.jdbc.MysqlDataSource;
 import io.pivotal.pal.tracker.PalTrackerApplication;
