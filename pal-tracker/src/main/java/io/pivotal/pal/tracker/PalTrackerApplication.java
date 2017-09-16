@@ -13,6 +13,6 @@ public class PalTrackerApplication {
 
     @Bean
     TimeEntryRepository timeEntryRepository() {
-        return new InMemoryTimeEntryRepository();
+        return (io.pivotal.pal.tracker.TimeEntryRepository) new InMemoryTimeEntryRepository();
     }
 }
