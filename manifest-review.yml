@@ -2,8 +2,6 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
-  host: ps-pal-tracker-review-vimal
-  services:
-  - tracker-database
+  host: vimal-pal-tracker-review
   env:
-    SECURITY_FORCE_HTTPS: true
+  - SECURITY_FORCE_HTTPS: true

@@ -27,6 +27,8 @@ public class SecurityApiTest {
     @Autowired
     private TestRestTemplate unAuthorizedRestTemplate;
 
+
+
     @Before
     public void setUp() throws Exception {
         RestTemplateBuilder builder = new RestTemplateBuilder()
